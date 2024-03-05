@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="feedback.CSS">
+</head>
+<body>
+
+<div class="container">
+    <h2>Feedback Form</h2>
+    <br>
+    <form action="FB.php" method="post">
+        <label for="name"><span>Y</span>our Name <i class='bx bx-label' style="color: #0ef;"></i></label>
+        <input  style="margin-left: 27px;" type="text" id="name" name="name" placeholder="Enter your Full Name" required><br><br>
+        
+        <label for="email"><span>Y</span>our Email <i class='bx bx-label' style="color: #0ef;"></i></label>
+        <input  style="margin-left: 27px;" type="email" id="email" name="email" placeholder="Enter your Email-ID" required><br><br>
+
+        <label for="rn"><span>R</span>eg-No <i class='bx bx-label' style="color: #0ef;"></i></label>
+        <input style="margin-left: 43px;" type="text" id="rn" name="rn" placeholder="Enter Your Reg-No" required><br><br>
+
+        <label for="gender"><span>G</span>ender <i class='bx bx-label' style="color: #0ef;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input  style="margin-left: 23px;" type="text" id="gender" name="gender" placeholder="Enter The Gender" required><br><br>
+        
+        <label for="feedback"><span>F</span>eedback <i class='bx bx-label' style="color: #0ef;"></i></label>
+        <input style="margin-left: 27px; border-radius: 1rem; height: 80px;" id="feedback" name="feedback" rows="4" placeholder="Enter your valid Feedback" required><br><br>
+        
+        <button type="submit" name="submit">Submit Feedback</button>
+    </form>
+</div>
+
+</body>
+</html>

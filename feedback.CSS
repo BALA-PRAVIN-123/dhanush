@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: black;
+}
+h2{
+    margin-top:1%;
+    font-size: 30px;
+    color: springgreen;
+    margin-left: 100px;
+    text-shadow: 0 0 3px black;
+    background: transparent;
+}
+label{
+    margin-top: 2%;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: justify;
+}
+input{
+    margin-top: 2%;
+    width: 300px;
+    height: 40px;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 5px springgreen,
+    1px 1px 18px springgreen;
+    background-color: whitesmoke;
+    border: 2px solid springgreen;
+}
+textarea{
+    background-color: whitesmoke;
+    margin-top: 1%;
+    width: 300px;
+    height: 60px;
+    box-shadow: 1px 1px 10px springgreen,
+    1px 1px 18px springgreen;
+}
+button{
+    display: inline-block;
+    margin-top: 2%;
+    padding: 12px 28px;
+    background: springgreen;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    border: 2px springgreen solid;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 90px;
+    box-shadow: 0 0 5px springgreen,
+    0 0 25px springgreen;
+}

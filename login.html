@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <title>login-page</title>
+</head>
+<body>
+    <form action="login.php" method="post">
+        <h1><span>L</span>ogin Page</h1>
+         <p>Please Login To Continue...</p>
+        <br>
+          <label><span>U</span>ser name &nbsp; &nbsp;</label><input type="text" placeholder="Enter the user name" id="userid" name="username" required>
+          <br>
+          <label><span>P</span>assword &nbsp; &nbsp;</label><input type="password" placeholder="Enter the password" id="password" name="password" required>
+          <br>
+          <button onclick="login()" type="button">Login</button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <button type="reset">clear</button>
+          <br>
+          <br>
+          <a href="#">Create New Account</a>
+    </form>
+</body>
+</html>
