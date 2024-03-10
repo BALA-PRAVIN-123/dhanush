@@ -37,7 +37,7 @@
     </section>
     <section class="contact" id="contact">
         <h2>Contact </h2>
-        <form action="">
+        <form>
             <label>Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" required>
             <br>
             <br>
@@ -49,8 +49,13 @@
             <br>
             <br>
             <br>
-            <button class="button">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button class="button">clear</button>
+            <button class="button" onclick="contact()">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button class="button">clear</button>
         </form>
     </section>
+    <script>
+        function contact(){
+            alert("thanks you ! your details are saved...");
+        }
+    </script>
 </body>
 </html>

@@ -1,8 +1,8 @@
 <?php
 $un =$_POST['username'];
 $ps =$_POST['password'];
-$con = mysqli_connect("localhost","root","","sfs");
-$sql = "INSERT INTO users(username,password) values('$un','$ps')";
+$con = mysqli_connect("localhost","root","","dhanushsfs");
+$sql = "INSERT INTO signin(usern,psswd) values('$un','$ps')";
 $r =mysqli_query($con,$sql);
 if($r){
     header("location:login.html");
